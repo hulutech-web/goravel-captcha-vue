@@ -1,8 +1,8 @@
-import GoravelCapchaVue from './components/Captcha.vue';
-export { GoravelCapchaVue };
+import GoravelCaptchaVue from './components/Captcha.vue';
+export { GoravelCaptchaVue };
 
 export default {
   install(app) {
-    app.component('GoravelCapchaVue', GoravelCapchaVue);
+    app.component('GoravelCaptchaVue', GoravelCaptchaVue);
   }
 };

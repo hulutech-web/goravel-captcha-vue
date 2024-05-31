@@ -4,9 +4,10 @@
     "name": "hulu-tech",
     "email": "yuanhaozhuzhu@hotmail.com"
   },
-  "main": "src/index.js",
-  "version": "0.0.6",
-  "description": "Goravel 验证码组件",
+  "main": "dist/goravel-captcha-vue.cjs.js",
+  "module": "dist/goravel-captcha-vue.esm.js",
+  "version": "0.0.11",
+  "description": "Goravel 验证码组件，dayjs问题",
   "keywords": [
     "goravel",
     "captcha",
@@ -22,15 +23,11 @@
   "dependencies": {
     "ant-design-vue": "4.x",
     "axios": "^1.7.2",
-    "dayjs": "^1.11.11",
     "lodash": "^4.17.21",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0"
-  },
-  "resolutions": {
-    "dayjs/plugin/advancedFormat": "0.1.5"
   }
 }
