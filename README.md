@@ -36,4 +36,7 @@ const checkCaptcallback = (e) => {
 
 ```
 ### 六、预览效果，前端由[goravel-captcha-vue](https://github.com/wenlng/go-captcha-vue)提供，无需自行实现
-![image](https://user-images.githubusercontent.com/12495351/180748182-45641031-2514-420a-8533-000584098388.png)
+![image](https://github.com/hulutech-web/goravel-captcha-vue/blob/master/images/default.png?raw=true)
+![image](https://github.com/hulutech-web/goravel-captcha-vue/blob/master/images/success.png?raw=true)
+![image](https://github.com/hulutech-web/goravel-captcha-vue/blob/master/images/validated.png?raw=true)
+![image](https://github.com/hulutech-web/goravel-captcha-vue/blob/master/images/validating.png?raw=true)
