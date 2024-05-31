@@ -5,7 +5,14 @@
     "email": "yuanhaozhuzhu@hotmail.com"
   },
   "main": "src/index.js",
-  "version": "0.0.4",
+  "version": "0.0.6",
+  "description": "Goravel 验证码组件",
+  "keywords": [
+    "goravel",
+    "captcha",
+    "vue"
+  ],
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,11 +22,15 @@
   "dependencies": {
     "ant-design-vue": "4.x",
     "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
     "lodash": "^4.17.21",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
     "vite": "^5.2.0"
+  },
+  "resolutions": {
+    "dayjs/plugin/advancedFormat": "0.1.5"
   }
 }
