@@ -5,7 +5,7 @@
 `npm install goravel-captcha-vue`
 ## 二、配置
 导入组件`import GoravelCaptchaVue from 'goravel-captcha-vue'`
-
+确保样式文件被引入`import 'goravel-captcha-vue/dist/style.css';`
 ## 三、功能概述,与后端[goravel-captcha](https://github.com/hulutech-web/goravel-captcha)搭配使用
 demo
 ```
