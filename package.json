@@ -1,20 +1,13 @@
 {
   "name": "goravel-captcha-vue",
+  "version": "0.0.14",
+  "main": "dist/goravel-captcha-vue.es.js",  
+  "module": "dist/goravel-captcha-vue.umd.js", 
+  "type": "module",
   "author": {
     "name": "hulu-tech",
     "email": "yuanhaozhuzhu@hotmail.com"
   },
-  "main": "dist/goravel-captcha-vue.cjs.js",
-  "module": "dist/goravel-captcha-vue.esm.js",
-  "version": "0.0.11",
-  "description": "Goravel 验证码组件，dayjs问题",
-  "keywords": [
-    "goravel",
-    "captcha",
-    "vue"
-  ],
-  "license": "MIT",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

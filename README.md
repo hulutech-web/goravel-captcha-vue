@@ -11,7 +11,8 @@ demo
 ```
 <script setup>
 import {ref} from 'vue'
-import Captcha from './components/Captcha.vue'
+import GoravelCaptchaVue from 'goravel-captcha-vue';
+import 'goravel-captcha-vue/dist/style.css'; // 确保样式文件被引入
 const checkCaptOk = ref(false);
 const authLogin = () => {
   if (checkCaptOk.value) {
@@ -28,7 +29,7 @@ const checkCaptcallback = (e) => {
 
 <template>
   <div>
-    <Captcha @checkCapt="checkCaptcallback" :baseUrl="'http://localhost:3000'" />
+    <GoravelCaptchaVue @checkCapt="checkCaptcallback" :baseUrl="'http://localhost:3000'" />
   </div>
 </template>
 

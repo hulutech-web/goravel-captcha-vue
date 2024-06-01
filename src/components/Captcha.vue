@@ -103,6 +103,12 @@ body {
   font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
 }
 
+.go-captcha-wrap{
+  width:300px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box;
+  position: relative;
+}
 .go-captcha-btn {
   width: 300px !important;
   margin: 0 auto !important;
